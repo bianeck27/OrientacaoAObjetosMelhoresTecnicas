@@ -3,12 +3,16 @@ public class Cnpj {
 
 	private String valor;
 
-	public Cnpj(String valor) {
-		this.valor = valor;
-	}
+//	public Cnpj(String valor) {
+//		this.valor = valor;
+//	}
 
 	public String getValor() {
 		return valor;
+	}
+	
+	public void setValor(String valor) {
+		this.valor = valor;
 	}
 
 	public boolean cnpjValido() {
@@ -53,6 +57,11 @@ public class Cnpj {
 	@Override
 	public int hashCode() {
 		return this.valor.hashCode();
+	}
+	
+	@Override
+	public String toString() {
+		return this.valor;
 	}
 
 }

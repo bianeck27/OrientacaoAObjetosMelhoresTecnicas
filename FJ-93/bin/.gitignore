@@ -1,3 +1,8 @@
+/BalancoEmpresa.class
 /Cnpj.class
+/Divida.class
+/GerenciadorDeDividas.class
+/Pagamento.class
 /Pagamentos.class
 /TestaPagamentos.class
+/RelatorioDeDivida.class
