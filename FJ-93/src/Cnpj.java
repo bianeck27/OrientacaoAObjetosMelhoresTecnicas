@@ -1,5 +1,5 @@
 
-public class Cnpj {
+public class Cnpj implements Documento{
 
 	private String valor;
 
@@ -62,6 +62,12 @@ public class Cnpj {
 	@Override
 	public String toString() {
 		return this.valor;
+	}
+
+	@Override
+	public boolean ehValido() {
+		// TODO Auto-generated method stub
+		return true;
 	}
 
 }
